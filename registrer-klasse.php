@@ -19,7 +19,7 @@ if (isset($_POST ["registrerKlasseKnapp"]))
     {
         print("B&aring;de klasse m&aring; fylles ut");
     }
-    else
+    
     {
         include("db.php"); 
         
@@ -42,5 +42,6 @@ if (isset($_POST ["registrerKlasseKnapp"]))
     }
     ?>
     
+
 
 
